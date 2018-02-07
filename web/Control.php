@@ -3,7 +3,7 @@ require './PHPMailer/PHPMailerAutoload.php';
 
 //Establecemos quien va a administrar los correos
 
-$MailAdmin = "karladelgado.r94@gmail.com";
+$MailAdmin = "kar";
 
 //=====================================
 //ENVIO DESDE FORMULARIO VITALMOVE
@@ -25,7 +25,7 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'mail.vitalmove.cl';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'entrena@vitalmove.cl';                 // SMTP username
-$mail->Password = 'ke26111310';                           // SMTP password
+$mail->Password = 'ke2';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                // TCP port to connect to
 
