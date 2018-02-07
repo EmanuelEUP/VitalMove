@@ -1,0 +1,99 @@
+
+/* BACKGROUND SECCTIONS */
+
+.bgsection01{
+
+    background-image: url("./../../img/bg01.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;    
+    height:100vh;
+    animation: Animsection01 10s infinite linear alternate;
+    
+}
+
+@keyframes Animsection01 {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+
+
+
+.bgsection02{
+
+  background-image: url("./../../img/bg02.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;    
+  height:100%;
+  animation: Animsection02 10s infinite linear alternate;
+  
+}
+
+@keyframes Animsection02 {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
+ 
+
+    .bgsection03{
+
+      background-image: url("./../../img/bg03.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      width: 100%;    
+      height:100%;
+      animation: Animsection03 10s infinite linear alternate;
+      
+    }
+    
+    @keyframes Animsection03 {
+      from {
+        background-position: bottom left; }
+      to {
+        background-position: top right; } }
+     
+
+  
+/* BACKGROUND SECCTIONS FIN */
+
+
+
+
+/* BACKGROUND COLORS TRANSPARENT (OPACITY 0.6) */
+
+
+.bgcolortransp01 { 
+    transition: all ease  .4s;
+    background-color: rgba($color: #000000, $alpha: 0.9)
+  }
+
+/* BACKGROUND COLORS TRANSPARENT (OPACITY 0.6) FIN */
+
+
+
+
+/* BACKGROUND COLORS   */
+
+
+    .bgcolor01 {  
+        background-color: rgba($color: #4DE40C , $alpha: 1.0);
+      }
+
+    .bgcolor02 {  
+    
+      background: rgb(20,20,20);
+      background: -moz-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(17,17,17,1) 44%, rgba(13,13,13,1) 100%);
+      background: -webkit-linear-gradient(top, rgba(20,20,20,1) 0%,rgba(17,17,17,1) 44%,rgba(13,13,13,1) 100%);
+      background: linear-gradient(to bottom, rgba(20,20,20,1) 0%,rgba(17,17,17,1) 44%,rgba(13,13,13,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#0d0d0d',GradientType=0 );
+
+    }
+
+/* BACKGROUND COLORS   FIN */
+      
